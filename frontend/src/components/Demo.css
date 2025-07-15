@@ -1,0 +1,81 @@
+/* Section background */
+.demo-section {
+background: linear-gradient(to right, #1e3c72, #355c97, #2a5298);  padding: 40px 0;
+}
+
+/* Heading styles */
+.chat-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.chat-heading .highlight {
+  color: #3b82f6; /* Tailwind blue-500 */
+}
+
+.chatbox-wrapper {
+  background-color: #23253a;
+  color: #fff;
+  border-radius: 20px;
+  margin: 40px auto;
+  padding: 20px;
+  width: 90%;
+  max-height: 300px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  position: relative;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.chatbox-wrapper.fullscreen {
+  position: fixed;
+ justify-content: center;
+ top: 100px;
+ left: 100px;
+  height: 100vh;
+  width: 80vw;
+  max-height: none;
+  z-index: 9999;
+  overflow-y: scroll;
+  border-radius: 0;
+}
+
+.chatbox-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.chatbox-content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 10px 5px;
+}
+
+.bot-msg {
+  background-color: #e5e7eb;
+  color: #23253a;
+  padding: 14px 18px;
+  border-radius: 20px;
+  max-width: 70%;
+}
+
+.user-msg {
+  background-color: blue;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 20px;
+  align-self: flex-end;
+  max-width: 70%;
+}

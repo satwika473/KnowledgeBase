@@ -1,0 +1,10 @@
+[
+  {
+    "sender": "user",
+    "text": "What is a migraine?"
+  },
+  {
+    "sender": "bot",
+    "text": "Bot response to \"What is a migraine?\""
+  }
+]

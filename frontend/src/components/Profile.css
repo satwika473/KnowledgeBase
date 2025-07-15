@@ -1,0 +1,9 @@
+.form-label {
+  color: #007bff; /* Bootstrap blue */
+}
+
+.form-control[readonly] {
+  color: #000; /* black text */
+  background-color: #fff; /* optional for clarity */
+  border: 1px solid #ced4da;
+}
